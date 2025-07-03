@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas (Responsividade)</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="img/foto-p.png">
+        <source media="(max-width:1050px )" srcset="img/foto-m.png">
+        <img src="img/foto-g.png" alt="Imagem resolução padrão (PC)">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos apender a reproduzir áudios em HTML5</p>
+    <audio src="midia/country-sky-telecasted.mp3" controls></audio>
+    <audio controls>
+        <source src="midia/country-sky-telecasted.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador não consegue reproduzir ainda</p>
+    </audio>
+</body>
+</html>
