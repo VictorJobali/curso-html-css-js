@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to bottom right, #F79E6B, #F7CD82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#7a4e34 ;
+}
+
+h2{
+    color: #6c5a3a;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #7a4e34;
+    color: white;
+}
